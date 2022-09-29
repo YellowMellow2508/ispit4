@@ -1,0 +1,96 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 16. ruj 2022., 16:29:08
+    Author     : Korisnik
+*/
+*{
+    border-sizing: border-box;
+    
+}
+
+body{
+    margin: 0;
+    overflow: scroll;
+}
+
+.sredisnje{
+    float: left;
+    width: 70%;
+    color: black;
+    border: 20px;
+    border-color: lightgray;
+    border-style: dotted;
+    height: 1500px;
+    padding: 20px;
+}
+.desno{
+    float: right;
+    width: 20%;
+    background-color: greenyellow;
+    color: black;
+    height: 1500px;
+    padding: 20px;
+    display: flex;
+    top: 9%
+  /*  align-items: center;
+    align-content: center;*/
+    
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  -ms-transform: translateY(-40%);
+  transform: translateY(-40%);
+}
+
+.stil-naslova{
+    color: darkgreen;
+    size: 20px;
+    font-family:sans-serif;
+    position: absolute;
+    top: 5%;
+}
+
+.footer{
+    background-color: darkgreen;
+    text-align: right;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 1600px;
+}
+table, th, td {
+  border: 1px solid;
+}
+button {
+  background-color:green;
+  border: none;
+  color: white;
+  padding: 7.5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+}
+#klikZaPromjenu{
+  background-color:green;
+  border: none;
+  color: white;
+  padding: 3.25px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8px;
+  margin: 4px 2px;
+  cursor: pointer;  
+}
+#datum,#vrijeme{
+    color: white;
+}
